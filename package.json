@@ -13,6 +13,7 @@
     "atom-mocha-test-runner": "^0.3.0"
   },
   "dependencies": {
+    "element-resize-detector": "^1.1.10",
     "etch": "^0.8.0"
   }
 }
