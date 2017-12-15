@@ -14,8 +14,8 @@ module.exports = class ListView {
 
   update({items, heightForItem, itemComponent} = {}) {
     if (items) this.items = items;
-    if (heightForItem) his.heightForItem = heightForItem;
-    if (itemComponent) his.itemComponent = itemComponent;
+    if (heightForItem) this.heightForItem = heightForItem;
+    if (itemComponent) this.itemComponent = itemComponent;
     return etch.update(this)
   }
 
